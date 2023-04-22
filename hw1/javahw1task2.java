@@ -1,5 +1,5 @@
 //Вывести все простые числа от 1 до 1000
-package javahw1.hw1;
+package javahw.hw1;
 
 public class javahw1task2 {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 //Реализовать простой калькулятор
-package javahw1.hw1;
+package javahw.hw1;
 
 import java.util.Scanner;
 

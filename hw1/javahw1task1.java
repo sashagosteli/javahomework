@@ -1,7 +1,7 @@
 // Вычислить n-ое треугольного число (сумма чисел от 1 до n), n!
 // (произведение чисел от 1 до n)
 
-package javahw1.hw1;
+package javahw.hw1;
 
 public class javahw1task1 {
     public static void main(String[] args) {
