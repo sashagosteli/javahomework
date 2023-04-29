@@ -11,11 +11,21 @@ public class hw4task1 {
         for (int i = 0; i < 10; i++) {
             list1.add(rd.nextInt(10));
         }
-        System.out.println(list1);
+        System.out.println(list1 + "Созданный список");
         System.out.println();
+        // Легкий вариант%
+        // Collections.reverse(list1);
+        // System.out.println(list1);
 
-        Collections.reverse(list1);
-        System.out.println(list1);
+        // Реализованный метод
 
+        for (int i = 0; i < list1.size() / 2; i++) {
+            Integer temp = list1.get(i);
+            list1.set(i, list1.get(list1.size() - i - 1));
+            list1.set(list1.size() - i - 1, temp);
+        }
+
+        System.out.println(list1 + "Развернутый список");
     }
+
 }
