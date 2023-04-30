@@ -67,7 +67,7 @@ public class hw4task3 {
         nextc = lineScanner.nextLine();
         if (nextc.equals("remove")) {
             newRes = res;
-            System.out.println("результат = " + newRes);
+            System.out.println("Предидущий результат = " + newRes);
             System.out.print("Введите символ : ");
             nextc = lineScanner.nextLine();
         }
@@ -93,44 +93,4 @@ public class hw4task3 {
 
     }
 
-    // public static void Calc() {
-    // Scanner iScanner = new Scanner(System.in);
-    // System.out.print("Введите 1 число : ");
-    // int a = iScanner.nextInt();
-
-    // System.out.print("Введите 2 число : ");
-    // int b = iScanner.nextInt();
-
-    // Scanner lineScanner = new Scanner(System.in);
-    // System.out.print("Введите символ : ");
-    // String c = lineScanner.nextLine();
-
-    // iScanner.close();
-    // lineScanner.close();
-    // CalcPrint(a, b, c);
-
-    // }
-
-    // public static void NextTask(int res) {
-    // Scanner nextScanner = new Scanner(System.in);
-    // System.out.print("Введите символ : ");
-    // String c = nextScanner.nextLine();
-    // System.out.print("Введите 2 число : ");
-    // int d = nextScanner.nextInt();
-    // int newRes = 0;
-    // if (c == "*") {
-    // newRes = res * d;
-    // System.out.println(res + "*" + d + "=" + newRes);
-    // } else if (c == "+") {
-    // newRes = res + d;
-    // System.out.println(res + "+" + d + "=" + newRes);
-    // } else if (c == "-") {
-    // newRes = res - d;
-    // System.out.println(res + "-" + d + "=" + newRes);
-    // } else if (c == "/") {
-    // newRes = res / d;
-    // System.out.println(res + "/" + d + "=" + newRes);
-    // }
-    // nextScanner.close();
-    // }
 }
